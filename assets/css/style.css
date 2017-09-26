@@ -1,0 +1,16 @@
+*{margin: auto; padding: auto;}
+
+h1 {color : blue; font-size: 42px; }
+h2 {color : darkblue; font-size: 25px;}
+p{font-size : 15px; text-align: justify;}
+ul{text-decoration: none; list-style: none;}
+
+
+
+#header{background-image: url(http://img.hebus.com/hebus_2013/03/14/1363278425_22901.jpg);height:150px; background-position: -14em 86%; background-repeat: no-repeat;}
+#nav{background-color: black; height: 25px; padding-top: 10px; padding-bottom: 10px; padding-left: 15px;}
+#nav a {text-decoration: none; color:white;}
+#nav a:hover{text-decoration: underline; font-size: 18px;}
+#principal{width: 70%; margin-top: 23px;}
+#footer {height: 45px; background-color: #000; margin-top: 25px;}
+#container {margin-top: 20px;}
