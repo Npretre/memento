@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Mon Mémento</title>
+</head>
+
+<body>
+  <div id="header"></div>
+
+  <div id="nav"> <a href="#container"> Commandes Terminal </a> </div>
+
+
+  <div id="principal">
+    <div id="containergit">
+      <h1>Git</h1>
+
+      <h2>Commandes de bases</h2>
+      <p>
+        <ul>
+
+          <li> Pour démarrer un projet et ouvrir un dépot : git init </li>
+          <li>Pour cloner un dépot : git clone</li>
+          <li>Pour vérifier leurs états : git status</li>
+          <li>Pour suivre, indexer un fichier : git add "fichier"> </li>
+          <li>Pour ignorer un fichier : gitignore</li>
+          <li>Inspecter des fichiers : git diff</li>
+          <li>Valider les modifications des fichiers : git commit</li>
+          <li> Afficher l'historique des commits : git log </li>
+          <li> Options de git log :
+            <ul>
+              <li> -p : Affiche les patchs des commits </li>
+              <li> --stat : Affiche les stats des fichiers</li>
+              <li> --shortstat : Affiches les lignes modifiées</li>
+              <li> --name-only : Affiche les fichiers modifiées après le commit</li>
+              <li> --relative-date : Affiche une date relative</li>
+              <li> --pretty=
+                <format> : Change le format d'affichage (oneline; short; full; fuller; format)</li>
+              <li> -n : Affiche que les (n) commits</li>
+              <li> --since : Affiche les commits apres tel date</li>
+              <li> --until : Affiche les commits avant tel date</li>
+              <li> --author : Affiche les commits de tel auteur</li>
+              <li> --commiter : Affiche les commits de tel validateur</li>
+            </ul>
+          </li>
+          <li>Pour modifier un commit : git commit --amend</li>
+          <li>Obtenir les éléments manquant d'un dépôt distant : git fetch [nom du dépôt]</li>
+          <li>Pour voir les étiquettes : git tag</li>
+          <li>Pour créer une étiquette annotée : git tag -a [version]</li>
+          <li>Envoyer une étiquette sur le serveur : git push origin [nom du tag]</li>
+          <li>Enovyer TOUS les tags sur le serveur : git push origin --tag</li>
+
+        </ul>
+
+      </p>
+
+    </div>
+    <pre><code></code></pre>
+    </br>
+    </br>
+    </br>
+    <div id="container">
+
+
+      <h2>Gestion de documents</h2>
+      <p>
+        <ul>
+          <li> Pour créer un dossier je dois utiliser cette commande : mkdir </li>
+          <li>Pour créer un fichier je dois utiliser : touch</li>
+          <li>Pour créer un sous dossier, il faut penser a rajouter un / entre les dossiers</li>
+          <li>Pour afficher les dossiers dans le répertoire : ls</li>
+          <li>Pour les fichiers cachés : ls -a</li>
+          <li>Pour les details : ls -l</li>
+          <li>Se rappeller de la position : pwd</li>
+          <li>Bouger dans l'arboresence : cd</li>
+          <li>Revenir en arriere : cd ..</li>
+          <li>Devenir super : sudo -i</li>
+          <li>Liste des paquets : dpkg -l</li>
+          <li>apt update : MAJ</li>
+          <li>sudo apt install fichier.deb : Installer un fichier</li>
+          <li>dpkg -i : installer depuis un dossier</li>
+          <li>rm : supprimer un fichier</li>
+          <li>rm -r : Supprimer un dossier vide</li>
+          <li>rm -rf : Supprime un dossier </li>
+          <li>nano : editeur de texte</li>
+          <li>cat : affiche le contenu du fichier</li>
+          <li> exit : sortir du sudo </li>
+          <li> cd ~ : retour home </li>
+        </ul>
+
+
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <div id="footer">
+    </footer>
+
+
+</body>
+
+</html>
